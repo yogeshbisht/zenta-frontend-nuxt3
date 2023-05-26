@@ -1,0 +1,18 @@
+$black: #000 !default;
+$white: #fff !default;
+$theme-white: #cecece;
+
+// Brand Color Scheme
+$brand-blue-light: #6f9acd;
+$brand-blue-primary: #5784b9;
+$brand-color-secondary: #5b7ba0;
+$brand-blue-dark: #365478;
+$brand-gray-primary: #98a4b2;
+$brand-gray-secondary:#cbd1d8;
+
+// Transitions
+$transition-general: all .15s ease;
+$transition-cubic-bezier: all .15s cubic-bezier(.68, -.55, .265, 1.55);
+
+// Border Radius
+$border-radius-xl: 0.75rem !important;

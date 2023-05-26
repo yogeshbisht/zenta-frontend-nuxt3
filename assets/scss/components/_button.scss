@@ -1,0 +1,8 @@
+.btn-primary {
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  color: $white !important;
+  background: linear-gradient(180deg,  $brand-blue-primary 0%, $brand-blue-dark 100%) !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba($color: $brand-blue-dark, $alpha: 0.4) !important;
+}

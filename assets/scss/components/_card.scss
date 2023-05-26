@@ -1,0 +1,16 @@
+
+.card {
+  overflow: visible !important;
+  border-radius: $border-radius-xl;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%) !important;
+}
+
+.card-avatar {
+  border-radius: $border-radius-xl;
+  background: linear-gradient(180deg,  $brand-blue-primary 0%, $brand-blue-dark 100%) !important;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px rgba($color: $brand-blue-dark, $alpha: 0.4) !important;
+}
+
+.card-padding {
+  padding: 1.5rem !important;
+}
