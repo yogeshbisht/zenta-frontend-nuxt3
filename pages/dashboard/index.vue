@@ -11,8 +11,8 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-import DailyBalance from "~~/components/charts/DailyBalance.vue";
+import { defineComponent } from 'vue';
+import DailyBalance from '~~/components/charts/DailyBalance.vue';
 
 export default defineComponent({
   components: { DailyBalance },

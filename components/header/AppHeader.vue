@@ -109,11 +109,11 @@
 </template>
 <script>
 export default {
-  name: "AppBar",
+  name: 'AppBar',
   props: {
     background: {
       type: String,
-      default: "rgba(255, 255, 255, 0)",
+      default: 'rgba(255, 255, 255, 0)',
     },
     hasBg: {
       type: Boolean,
@@ -129,19 +129,19 @@ export default {
     return {
       drawer: false,
       togglerActive: false,
-      linkColor: "#98a4b2",
+      linkColor: '#98a4b2',
       dropdown: [
         {
-          icon: "email",
-          title: "Check new messages",
+          icon: 'email',
+          title: 'Check new messages',
         },
         {
-          icon: "podcasts",
-          title: "Manage podcast session",
+          icon: 'podcasts',
+          title: 'Manage podcast session',
         },
         {
-          icon: "shopping_cart",
-          title: "Payment successfully completed",
+          icon: 'shopping_cart',
+          title: 'Payment successfully completed',
         },
       ],
     };
@@ -156,17 +156,17 @@ export default {
   methods: {
     drawerClose() {
       this.togglerActive = !this.togglerActive;
-      this.$emit("drawer-toggle", true);
+      this.$emit('drawer-toggle', true);
     },
     minifyDrawer() {
       this.togglerActive = !this.togglerActive;
       this.mini = !this.mini;
-      const body = document.getElementsByTagName("body")[0];
+      const body = document.getElementsByTagName('body')[0];
 
-      if (body.classList.contains("drawer-mini")) {
-        body.classList.remove("drawer-mini");
+      if (body.classList.contains('drawer-mini')) {
+        body.classList.remove('drawer-mini');
       } else {
-        body.classList.add("drawer-mini");
+        body.classList.add('drawer-mini');
       }
     },
   },

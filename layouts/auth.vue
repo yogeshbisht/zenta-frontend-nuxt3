@@ -9,7 +9,7 @@ import ContentFooter from '~~/components/footer/ContentFooter.vue';
 </template>
 
 <script>
-import ContentFooter from "~~/components/footer/ContentFooter.vue";
+import ContentFooter from '~~/components/footer/ContentFooter.vue';
 
 export default defineComponent({
   components: { ContentFooter },

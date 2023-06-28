@@ -30,20 +30,20 @@
 <script setup lang="ts">
 const footer = [
   {
-    linkName: "Home",
-    link: "https://yogeshbisht.com/",
+    linkName: 'Home',
+    link: 'https://yogeshbisht.com/',
   },
   {
-    linkName: "About Us",
-    link: "https://yogeshbisht.com/",
+    linkName: 'About Us',
+    link: 'https://yogeshbisht.com/',
   },
   {
-    linkName: "Terms & Conditions",
-    link: "https://yogeshbisht.com/",
+    linkName: 'Terms & Conditions',
+    link: 'https://yogeshbisht.com/',
   },
   {
-    linkName: "Privacy Policy",
-    link: "https://yogeshbisht.com/",
+    linkName: 'Privacy Policy',
+    link: 'https://yogeshbisht.com/',
   },
 ];
 </script>

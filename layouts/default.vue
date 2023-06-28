@@ -18,8 +18,8 @@
 </template>
 
 <script>
-import NavigationDrawer from "~~/components/sidebar/NavigationDrawer.vue";
-import AppHeader from "~~/components/header/AppHeader.vue";
+import NavigationDrawer from '~~/components/sidebar/NavigationDrawer.vue';
+import AppHeader from '~~/components/header/AppHeader.vue';
 
 export default {
   components: { NavigationDrawer, AppHeader },

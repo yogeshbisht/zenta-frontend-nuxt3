@@ -1,4 +1,4 @@
-import { Line } from "vue-chartjs";
+import { Line } from 'vue-chartjs';
 import {
   Chart as ChartJS,
   Title,
@@ -10,7 +10,7 @@ import {
   LineElement,
   PointElement,
   ArcElement,
-} from "chart.js";
+} from 'chart.js';
 
 ChartJS.register(
   Title,
@@ -25,5 +25,5 @@ ChartJS.register(
 );
 
 export default defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp.component("LineChart", Line);
+  nuxtApp.vueApp.component('LineChart', Line);
 });
